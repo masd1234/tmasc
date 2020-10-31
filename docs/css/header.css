@@ -1,0 +1,126 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(215, 245, 178);
+  background: linear-gradient(
+    38deg,
+    rgba(215, 245, 178, 1) 0%,
+    rgba(173, 255, 186, 1) 54%,
+    rgba(0, 255, 85, 1) 100%,
+    rgba(14, 145, 255, 1) 100%,
+    rgba(0, 255, 25, 1) 100%,
+    rgba(18, 159, 255, 1) 100%,
+    rgba(50, 116, 255, 1) 100%,
+    rgba(219, 24, 47, 1) 100%
+  );
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 3rem;
+  flex-basis: 20%;
+}
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 50%;
+  list-style: none;
+}
+
+.navBarMobile {
+  border: none;
+  display: none;
+  position: relative;
+  left: 10%;
+  background-color: whitesmoke;
+  padding: 0 0.3rem;
+  margin: 0.5rem 0;
+}
+
+.line {
+  background-color: black;
+  margin: 0.4rem 0;
+  height: 4px;
+  width: 24px;
+  list-style: none;
+}
+
+.mobileMenu {
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+  top: 1px;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  opacity: 0.6;
+  background: rgb(215, 245, 178);
+  background: linear-gradient(
+    38deg,
+    rgba(215, 245, 178, 1) 0%,
+    rgba(173, 255, 186, 1) 54%,
+    rgba(0, 255, 85, 1) 100%,
+    rgba(14, 145, 255, 1) 100%,
+    rgba(0, 255, 25, 1) 100%,
+    rgba(18, 159, 255, 1) 100%,
+    rgba(50, 116, 255, 1) 100%,
+    rgba(219, 24, 47, 1) 100%
+  );
+  list-style: none;
+}
+
+.mobileMenuButtom {
+  width: 3rem;
+  font-size: 1.5rem;
+}
+
+.navBar li a,
+.mobileMenu li a {
+  font-size: 1.8rem;
+  margin: 0.7rem;
+  padding: 0.5rem;
+}
+
+.navBar li a:visited,
+.mobileMenu a:visited {
+  color: gray;
+}
+
+.navBar li:link,
+.mobileMenu a:link {
+  color: black;
+}
+
+.navBar li:hover,
+.mobileMenu a:hover {
+  background-color: whitesmoke;
+  transition: 1s;
+  border-radius: 2rem;
+}
+
+.navBar li:active,
+.mobileMenu a:active {
+  color: greenyellow;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 768px) {
+  .navBar {
+    display: none;
+  }
+
+  .navBarMobile {
+    display: block;
+  }
+
+  .mobileMenu {
+    display: none;
+  }
+}

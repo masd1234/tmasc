@@ -1,0 +1,121 @@
+html body {
+  height: 100vh;
+  background-color: rgb(243, 250, 244);
+}
+
+.homeFirstSection {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.homeFirstSection h1 {
+  margin: 0.5rem;
+  clip-path: polygon(7% 0, 98% 1%, 93% 100%, 0% 100%);
+  background: rgb(215, 245, 178);
+  background: linear-gradient(
+    38deg,
+    rgba(215, 245, 178, 1) 0%,
+    rgba(173, 255, 186, 1) 54%,
+    rgba(0, 255, 85, 1) 100%,
+    rgba(14, 145, 255, 1) 100%,
+    rgba(0, 255, 25, 1) 100%,
+    rgba(18, 159, 255, 1) 100%,
+    rgba(50, 116, 255, 1) 100%,
+    rgba(219, 24, 47, 1) 100%
+  );
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 3rem;
+  flex: 1 1 30%;
+}
+
+.imageContainer {
+  flex: 1 1 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.7rem;
+}
+
+.imageContainer img {
+  margin: 0.5rem;
+  height: 180px;
+}
+
+.homeSecondSection {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-wrap: wrap;
+  height: 50%;
+  width: 100%;
+  clip-path: polygon(4% 0, 100% 0, 96% 100%, 0% 100%);
+  background: rgb(215, 245, 178);
+  background: linear-gradient(
+    38deg,
+    rgba(215, 245, 178, 1) 0%,
+    rgba(173, 255, 186, 1) 54%,
+    rgba(0, 255, 85, 1) 100%,
+    rgba(14, 145, 255, 1) 100%,
+    rgba(0, 255, 25, 1) 100%,
+    rgba(18, 159, 255, 1) 100%,
+    rgba(50, 116, 255, 1) 100%,
+    rgba(219, 24, 47, 1) 100%
+  );
+}
+
+.homeSecondSection--container {
+  flex-basis: 55%;
+  margin: 1rem;
+}
+
+.homeSecondSection--paragraph {
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.homeSecondSection--img {
+  flex-basis: 23%;
+}
+
+@media only screen and (max-width: 768px) {
+  .homeFirstSection {
+    margin-top: 3rem;
+  }
+
+  .homeFirstSection h1 {
+    flex-basis: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    margin: 0;
+  }
+
+  .imageContainer {
+    flex-basis: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  .imageContainer img {
+    flex: 1 1 20px;
+  }
+
+  .homeSecondSection--container {
+    flex-basis: 100%;
+  }
+
+  .homeSecondSection {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .homeSecondSection--img {
+    flex-basis: 100%;
+  }
+}
