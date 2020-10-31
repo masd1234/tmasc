@@ -84,6 +84,8 @@ html body {
 
 .homeSecondSection--img {
   flex-basis: 23%;
+  margin: 0.5rem;
+  max-height: auto;
 }
 
 @media only screen and (max-width: 768px) {
