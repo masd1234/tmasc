@@ -86,15 +86,11 @@
   font-size: 1.8rem;
   margin: 0.7rem;
   padding: 0.5rem;
+  text-decoration: none;
 }
 
 .navBar li a:visited,
 .mobileMenu a:visited {
-  color: gray;
-}
-
-.navBar li:link,
-.mobileMenu a:link {
   color: black;
 }
 

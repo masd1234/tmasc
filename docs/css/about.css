@@ -1,0 +1,132 @@
+.aboutFirstSection {
+  min-height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-basis: 60%;
+  padding: 5%;
+  clip-path: polygon(4% 0, 98% 1%, 93% 100%, 0% 100%);
+  background: rgb(215, 245, 178);
+  background: linear-gradient(
+    38deg,
+    rgba(215, 245, 178, 1) 0%,
+    rgba(173, 255, 186, 1) 54%,
+    rgba(0, 255, 85, 1) 100%,
+    rgba(14, 145, 255, 1) 100%,
+    rgba(0, 255, 25, 1) 100%,
+    rgba(18, 159, 255, 1) 100%,
+    rgba(50, 116, 255, 1) 100%,
+    rgba(219, 24, 47, 1) 100%
+  );
+}
+
+.aboutFirstSection h1 {
+  font-size: 3rem;
+}
+
+.aboutFirstSection p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.aboutImg {
+  border-radius: 2rem;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem;
+}
+
+.aboutSecondSection {
+  min-height: 50%;
+  display: flex;
+  width: 100%;
+  padding: 5rem;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clip-path: polygon(4% 0, 98% 1%, 97% 100%, 0% 100%);
+  background: rgb(215, 245, 178);
+  background: linear-gradient(
+    38deg,
+    rgba(215, 245, 178, 1) 0%,
+    rgba(173, 255, 186, 1) 54%,
+    rgba(0, 255, 85, 1) 100%,
+    rgba(14, 145, 255, 1) 100%,
+    rgba(0, 255, 25, 1) 100%,
+    rgba(18, 159, 255, 1) 100%,
+    rgba(50, 116, 255, 1) 100%,
+    rgba(219, 24, 47, 1) 100%
+  );
+}
+.aboutSecondSection--text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+.aboutSecondSection--text h1 {
+  font-size: 3rem;
+}
+
+.aboutSecondSection--text p {
+  font-size: 1.5rem;
+}
+
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: auto;
+  flex-basis: 600px;
+}
+
+.plans-cont {
+  flex: 1;
+  flex-basis: 200px;
+  height: 140px;
+  padding: 2rem;
+  margin: 0.5rem;
+  border-radius: 2rem;
+  border: 1px solid rgb(79, 209, 40);
+  background-color: white;
+}
+
+.plans-cont h1 {
+  font-size: 1.2rem;
+}
+.plans-cont p {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutFirstSection {
+    margin-top: 3.9rem;
+    height: auto;
+  }
+  .textContainer {
+    flex-basis: 100%;
+    justify-content: center;
+    height: 50%;
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .aboutFirstSection p {
+    margin-top: 2rem;
+  }
+
+  .aboutSecondSection {
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
