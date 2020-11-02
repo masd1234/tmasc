@@ -51,16 +51,16 @@
 }
 
 .mobileMenu {
-  display: none;
+ display: none;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  position: relative;
+  position: fixed;
   top: 1px;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   text-align: center;
-  opacity: 0.6;
+  opacity: 0.9;
   background: rgb(215, 245, 178);
   background: linear-gradient(
     38deg,
@@ -74,6 +74,7 @@
     rgba(219, 24, 47, 1) 100%
   );
   list-style: none;
+  z-index: 10;
 }
 
 .mobileMenuButtom {

@@ -34,8 +34,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 50%;
+  min-width: 40%;
   font-size: 3rem;
-  flex: 1 1 30%;
+  flex-grow: 1;
 }
 
 .imageContainer {
@@ -64,10 +65,11 @@ body {
 
 .homeSecondSection--container {
   display: flex;
+  flex-grow: 0.8;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-basis: 60%;
+  min-width: 70%;
   margin: 1rem;
   height: 50%;
   clip-path: polygon(4% 0, 100% 0, 96% 100%, 0% 100%);
@@ -87,16 +89,17 @@ body {
 
 .homeSecondSection--container h1 {
   font-size: 3rem;
-  text-align: left;
+
 }
 
 .homeSecondSection--container p {
   font-size: 1.5rem;
-  text-align: left;
+
 }
 
 .homeSecondSection--img {
   max-width: 100%;
+  flex-grow: 1;
   height: auto;
 }
 
