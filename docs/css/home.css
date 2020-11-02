@@ -12,7 +12,6 @@ body {
   height: 50%;
   width: 100%;
   background: rgb(239, 240, 238);
-
 }
 
 .homeFirstSection h1 {
@@ -45,17 +44,18 @@ body {
   align-items: center;
   justify-content: space-evenly;
   height: 50%;
+  flex-grow: 1;
 }
 
 .imageContainer img {
   height: 150px;
+  height: 100%;
   max-width: 100%;
   margin: 0.1rem;
   flex-grow: 1;
 }
 
 .homeSecondSection {
-  margin-top: 2rem;
   height: 50%;
   display: flex;
   justify-content: center;
@@ -66,12 +66,11 @@ body {
 
 .homeSecondSection--container {
   display: flex;
-  flex-grow: 0.8;
+  flex-grow: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50%;
-  padding: 4rem;
   height: 50%;
   clip-path: polygon(4% 0, 100% 0, 96% 100%, 0% 100%);
   background: rgb(215, 245, 178);
@@ -97,11 +96,18 @@ body {
 }
 
 .homeSecondSection--img {
-  max-width: 100%;
-  
+ 
+
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1296px) {
+  .homeSecondSection--container,
+  .homeFirstSection h1 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+@media only screen and (max-width: 820px) {
   .homeFirstSection {
     margin-top: 4rem;
     height: auto;
@@ -123,19 +129,15 @@ body {
   .imageContainer img {
     margin: 0.5 0;
   }
-  .homeSecondSection {
-    margin: 0;
-  }
+
 
   .homeSecondSection--container {
     flex-basis: 100%;
-    padding: 1rem;
-    margin: 0;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 
   .homeSecondSection--img {
     flex-grow: 1;
-    height: 140px;
+    height: 50%;
   }
 }

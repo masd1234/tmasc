@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
       rel="stylesheet"
     />
-    <link href="../resources/css/all.css" rel="stylesheet">
+    <link href="../resources/css/all.css" rel="stylesheet" />
     <script src="../js/index.js" async></script>
   </head>
   <body>
@@ -33,14 +33,44 @@
       <li><a href="../html/about.html">About Us</a></li>
       <li><a href="../html/ourservice.html">Our Service</a></li>
     </ul>
+    <section class="form--container">
+      <div class="form--inner--container">
+        <h1>Send us your information and will contact you:</h1>
+        <form>
+          <label for="fname" class="input-text">First name:</label>
+          <br />
+          <input type="text" class="input" id="fname" name="fname" required />
+          <br />
+          <label for="lname" class="input-text">Last name:</label>
+          <br />
+          <input type="text" class="input" id="lname" name="lname" required />
+          <br />
+          <label for="Pname" class="input-text">Phone Number:</label>
+          <br />
+          <input type="text" class="input" id="Pname" name="Pname" required />
+          <br />
+          <label for="Ename" class="input-text">Email:</label>
+          <br />
+          <input type="text" class="input" id="Ename" name="Ename" required />
+        </form>
 
- 
+        <br />
+        <button type="submit" ac class="buttomSubmit">Submit</button>
+      </div>
+    </section>
+
     <footer class="footer">
       <p>Te + C 2020 &copy;</p>
       <ul class="footer--list">
-        <li><a href="../index.html"><i class="fas fa-home"></i></a></li>
-        <li><a href="../html/about.html"><i class="fas fa-users"></i></a></li>
-        <li><a href="../html/ourservice.html"><i class="fas fa-briefcase"></i></a></li>
+        <li>
+          <a href="../index.html"><i class="fas fa-home"></i></a>
+        </li>
+        <li>
+          <a href="../html/about.html"><i class="fas fa-users"></i></a>
+        </li>
+        <li>
+          <a href="../html/ourservice.html"><i class="fas fa-briefcase"></i></a>
+        </li>
       </ul>
     </footer>
   </body>

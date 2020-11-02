@@ -1,0 +1,61 @@
+.form--container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form--container h1 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.form--inner--container {
+  height: 100%;
+  flex-grow: 1;
+  padding: 10rem 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(215, 245, 178);
+  background: linear-gradient(
+    38deg,
+    rgba(215, 245, 178, 1) 0%,
+    rgba(173, 255, 186, 1) 54%,
+    rgba(0, 255, 85, 1) 100%,
+    rgba(14, 145, 255, 1) 100%,
+    rgba(0, 255, 25, 1) 100%,
+    rgba(18, 159, 255, 1) 100%,
+    rgba(50, 116, 255, 1) 100%,
+    rgba(219, 24, 47, 1) 100%
+  );
+}
+
+.input-text,
+input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  border: none;
+}
+
+.buttomSubmit {
+  width: 10rem;
+  border-radius: 2rem;
+  background-color: white;
+  height: 3rem;
+  font-size: 2rem;
+  border: none;
+}
+
+@media only screen and (max-width: 380px) {
+  .form--inner--container {
+    padding: 10%;
+  }
+  .input-text,
+  input {
+    font-size: 1.5rem;
+  }
+}
