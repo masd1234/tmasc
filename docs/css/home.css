@@ -1,17 +1,18 @@
 html,
 body {
   height: 100%;
-  background-color: rgb(243, 250, 244);
 }
 
 .homeFirstSection {
-  margin-top: 8rem;
+  margin-top: 3.5rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   height: 50%;
   width: 100%;
+  background: rgb(239, 240, 238);
+
 }
 
 .homeFirstSection h1 {
@@ -69,8 +70,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 70%;
-  margin: 1rem;
+  width: 50%;
+  padding: 4rem;
   height: 50%;
   clip-path: polygon(4% 0, 100% 0, 96% 100%, 0% 100%);
   background: rgb(215, 245, 178);
@@ -89,18 +90,15 @@ body {
 
 .homeSecondSection--container h1 {
   font-size: 3rem;
-
 }
 
 .homeSecondSection--container p {
   font-size: 1.5rem;
-
 }
 
 .homeSecondSection--img {
   max-width: 100%;
-  flex-grow: 1;
-  height: auto;
+  
 }
 
 @media only screen and (max-width: 767px) {
@@ -138,5 +136,6 @@ body {
 
   .homeSecondSection--img {
     flex-grow: 1;
+    height: 140px;
   }
 }

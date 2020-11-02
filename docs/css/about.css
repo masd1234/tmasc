@@ -5,6 +5,7 @@
   justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
+  background: rgb(239, 240, 238);
 }
 
 .textContainer {
@@ -12,8 +13,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  flex-basis: 60%;
-  padding: 5%;
+  max-width: 70%;
+  padding: 5rem;
   clip-path: polygon(4% 0, 98% 1%, 93% 100%, 0% 100%);
   background: rgb(215, 245, 178);
   background: linear-gradient(
@@ -39,6 +40,7 @@
 }
 
 .aboutImg {
+  width: auto;
   border-radius: 2rem;
   max-width: 100%;
   height: auto;
@@ -67,12 +69,12 @@
     rgba(219, 24, 47, 1) 100%
   );
 }
-.aboutSecondSection--text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
+.aboutSecondSection--text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 .aboutSecondSection--text h1 {
   font-size: 3rem;
 }
@@ -91,7 +93,7 @@
 }
 
 .plans-cont {
-  flex: 1;
+  flex-grow: 1;
   flex-basis: 200px;
   height: 140px;
   padding: 2rem;
@@ -114,10 +116,10 @@
     height: auto;
   }
   .textContainer {
-    flex-basis: 100%;
+    max-width: 100%;
     justify-content: center;
     height: 50%;
-    padding: 1rem;
+    padding: 3rem;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 
@@ -128,5 +130,10 @@
   .aboutSecondSection {
     padding: 1rem;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .aboutSecondSection--text {
+    text-align: center;
+    padding: 2rem;
   }
 }
