@@ -5,18 +5,8 @@
   justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
-  background: rgb(215, 245, 178);
-  background: linear-gradient(
-    38deg,
-    rgba(215, 245, 178, 1) 0%,
-    rgba(173, 255, 186, 1) 54%,
-    rgba(0, 255, 85, 1) 100%,
-    rgba(14, 145, 255, 1) 100%,
-    rgba(0, 255, 25, 1) 100%,
-    rgba(18, 159, 255, 1) 100%,
-    rgba(50, 116, 255, 1) 100%,
-    rgba(219, 24, 47, 1) 100%
-  );
+  background: rgb(55, 252, 1);
+  color: whitesmoke;
 }
 
 .textContainer {
@@ -86,20 +76,9 @@
   padding: 2rem;
   margin: 0.5rem;
   border-radius: 2rem;
-  border: 1px solid rgb(79, 209, 40);
   background-color: white;
-  background: rgb(215, 245, 178);
-  background: linear-gradient(
-    38deg,
-    rgba(215, 245, 178, 1) 0%,
-    rgba(173, 255, 186, 1) 54%,
-    rgba(0, 255, 85, 1) 100%,
-    rgba(14, 145, 255, 1) 100%,
-    rgba(0, 255, 25, 1) 100%,
-    rgba(18, 159, 255, 1) 100%,
-    rgba(50, 116, 255, 1) 100%,
-    rgba(219, 24, 47, 1) 100%
-  );
+  color: whitesmoke;
+  background: rgb(25, 255, 4);
   text-align: center;
 }
 

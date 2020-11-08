@@ -12,23 +12,13 @@ body {
   height: 50%;
   width: 100%;
   background: rgb(239, 240, 238);
+  color: whitesmoke;
 }
 
 .homeFirstSection h1 {
   padding: 0.5rem;
   clip-path: polygon(7% 0, 98% 1%, 93% 100%, 0% 100%);
-  background: rgb(215, 245, 178);
-  background: linear-gradient(
-    38deg,
-    rgba(215, 245, 178, 1) 0%,
-    rgba(173, 255, 186, 1) 54%,
-    rgba(0, 255, 85, 1) 100%,
-    rgba(14, 145, 255, 1) 100%,
-    rgba(0, 255, 25, 1) 100%,
-    rgba(18, 159, 255, 1) 100%,
-    rgba(50, 116, 255, 1) 100%,
-    rgba(219, 24, 47, 1) 100%
-  );
+  background: rgb(55, 252, 1);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -62,6 +52,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  color: whitesmoke;
 }
 
 .homeSecondSection--container {
@@ -73,18 +64,7 @@ body {
   width: 50%;
   height: 50%;
   clip-path: polygon(4% 0, 100% 0, 96% 100%, 0% 100%);
-  background: rgb(215, 245, 178);
-  background: linear-gradient(
-    38deg,
-    rgba(215, 245, 178, 1) 0%,
-    rgba(173, 255, 186, 1) 54%,
-    rgba(0, 255, 85, 1) 100%,
-    rgba(14, 145, 255, 1) 100%,
-    rgba(0, 255, 25, 1) 100%,
-    rgba(18, 159, 255, 1) 100%,
-    rgba(50, 116, 255, 1) 100%,
-    rgba(219, 24, 47, 1) 100%
-  );
+  background: rgb(55, 252, 1);
 }
 
 .homeSecondSection--container h1 {
@@ -93,11 +73,6 @@ body {
 
 .homeSecondSection--container p {
   font-size: 1.5rem;
-}
-
-.homeSecondSection--img {
- 
-
 }
 
 @media only screen and (max-width: 1296px) {
@@ -109,7 +84,7 @@ body {
 
 @media only screen and (max-width: 820px) {
   .homeFirstSection {
-    margin-top: 4rem;
+    margin-top: 3rem;
     height: auto;
   }
 
@@ -129,7 +104,6 @@ body {
   .imageContainer img {
     margin: 0.5 0;
   }
-
 
   .homeSecondSection--container {
     flex-basis: 100%;

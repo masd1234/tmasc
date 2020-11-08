@@ -3,24 +3,13 @@
   align-items: center;
   justify-content: space-around;
   height: 50px;
-  background: rgb(230, 237, 221);
-  background: linear-gradient(
-    38deg,
-    rgba(230, 237, 221, 1) 0%,
-    rgba(220, 214, 214, 1) 54%,
-    rgba(189, 206, 195, 1) 100%,
-    rgba(0, 255, 85, 1) 100%,
-    rgba(14, 145, 255, 1) 100%,
-    rgba(0, 255, 25, 1) 100%,
-    rgba(18, 159, 255, 1) 100%,
-    rgba(50, 116, 255, 1) 100%,
-    rgba(222, 222, 222, 1) 100%
-  );
+  background: rgb(55, 252, 1);
   z-index: 10;
 }
 
 .footer p {
   font-size: 1.5rem;
+  color: whitesmoke;
 }
 
 .footer--list {
@@ -34,7 +23,7 @@
 
 .footer--list li a i {
   font-size: 1.5rem;
-  color: black;
+  color: whitesmoke;
 }
 
 .footer--list li a:link {
