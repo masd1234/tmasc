@@ -11,14 +11,14 @@ body {
   flex-wrap: wrap;
   height: 50%;
   width: 100%;
-  background: rgb(239, 240, 238);
+  background: #2de75c;
   color: whitesmoke;
 }
 
 .homeFirstSection h1 {
   padding: 0.5rem;
   clip-path: polygon(7% 0, 98% 1%, 93% 100%, 0% 100%);
-  background: rgb(55, 252, 1);
+  background: 2de75c;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -64,7 +64,7 @@ body {
   width: 50%;
   height: 50%;
   clip-path: polygon(4% 0, 100% 0, 96% 100%, 0% 100%);
-  background: rgb(55, 252, 1);
+  background: #2de75c;
 }
 
 .homeSecondSection--container h1 {

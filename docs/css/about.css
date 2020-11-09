@@ -5,7 +5,7 @@
   justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
-  background: rgb(55, 252, 1);
+  background: #2de75c;
   color: whitesmoke;
 }
 
@@ -78,7 +78,7 @@
   border-radius: 2rem;
   background-color: white;
   color: whitesmoke;
-  background: rgb(25, 255, 4);
+  background: #2de75c;
   text-align: center;
 }
 
