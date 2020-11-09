@@ -33,7 +33,7 @@
 }
 
 .line {
-  background: rgb(55, 252, 1);
+  background: #2de75c;
   margin: 0.4rem 0;
   height: 4px;
   width: 24px;
@@ -51,7 +51,7 @@
   width: 100%;
   text-align: center;
   opacity: 0.9;
-  background: rgb(55, 252, 1);
+  background: #2de75c;
   list-style: none;
   z-index: 10;
 }
@@ -77,7 +77,7 @@
 .navBar li a:hover,
 .mobileMenu a:hover {
   background-color: whitesmoke;
-  color: rgb(55, 252, 1);
+  color: #2de75c;
   transition: 1s;
   border-radius: 2rem;
 }
