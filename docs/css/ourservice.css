@@ -12,25 +12,15 @@
 }
 
 .form--inner--container {
-  height: 100%;
-  flex-grow: 1;
+  height: 70%;
+  width: 70%;
   padding: 10rem 5rem;
+  border-radius: 2rem;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background: rgb(215, 245, 178);
-  background: linear-gradient(
-    38deg,
-    rgba(215, 245, 178, 1) 0%,
-    rgba(173, 255, 186, 1) 54%,
-    rgba(0, 255, 85, 1) 100%,
-    rgba(14, 145, 255, 1) 100%,
-    rgba(0, 255, 25, 1) 100%,
-    rgba(18, 159, 255, 1) 100%,
-    rgba(50, 116, 255, 1) 100%,
-    rgba(219, 24, 47, 1) 100%
-  );
+  border: 0.2rem solid whitesmoke;
 }
 
 .input-text,
@@ -50,9 +40,11 @@ input {
   border: none;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 480px) {
   .form--inner--container {
     padding: 10%;
+    width: 90%;
+    height: 60%;
   }
   .input-text,
   input {

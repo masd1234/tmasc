@@ -4,9 +4,8 @@
   align-items: center;
   justify-content: space-around;
   align-content: center;
-  flex-wrap: wrap;
-  background: #2de75c;
   color: whitesmoke;
+  gap: 2rem;
 }
 
 .textContainer {
@@ -14,18 +13,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  max-width: 60%;
+  max-width: 50%;
   height: auto;
-  flex-grow: 1;
+  margin: 0 1rem;
 }
 
 .aboutFirstSection h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .aboutFirstSection p {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .aboutImg {
@@ -33,7 +32,6 @@
   border-radius: 2rem;
   max-width: 100%;
   height: auto;
-  margin: 2rem;
 }
 
 .aboutSecondSection {
@@ -78,7 +76,7 @@
   border-radius: 2rem;
   background-color: white;
   color: whitesmoke;
-  background: #2de75c;
+  background: #08f143;
   text-align: center;
 }
 
@@ -100,12 +98,12 @@
 @media only screen and (max-width: 768px) {
   .aboutFirstSection {
     margin-top: 3.9rem;
+    flex-wrap: wrap;
   }
   .textContainer {
-    max-width: 100%;
+    max-width: 90%;
     justify-content: center;
     height: 50%;
-    padding: 3rem;
   }
 
   .aboutFirstSection p {

@@ -1,16 +1,21 @@
 const navBarMobileButtom = document.querySelector(".navBarMobile");
 const navBarMobileMenu = document.querySelector(".mobileMenu");
 const navBarMobileMenuDisplayed = document.querySelector(".mobileMenuButtom");
+let mobile = true;
 
 const navBarDisplay = () => {
-  if ((navBarMobileMenu.style.display = "none")) {
-    navBarMobileMenu.style.display = "flex";
+  if (mobile) {
+    mobile = false;
+    navBarMobileButtom.classList.add("navBarMobileHide");
+    navBarMobileMenu.classList.add("mobileMenuDisplay");
   }
 };
 
 const navBarHide = () => {
-  if ((navBarMobileMenu.style.display = "flex")) {
-    navBarMobileMenu.style.display = "none";
+  if (!mobile) {
+    mobile = true;
+    navBarMobileMenu.classList.remove("mobileMenuDisplay");
+    navBarMobileButtom.classList.remove("navBarMobileHide");
   }
 };
 
