@@ -5,7 +5,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 20;
+  background: rgb(70, 240, 76);
+  z-index: 1;
 }
 
 .logo {
