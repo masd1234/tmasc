@@ -27,6 +27,7 @@ body {
   min-width: 40%;
   font-size: 3rem;
   flex-grow: 1;
+  color: rgb(97, 96, 96);
 }
 
 .imageContainer {
@@ -70,10 +71,12 @@ body {
 
 .homeSecondSection--container h1 {
   font-size: 3rem;
+  color: rgb(97, 96, 96);
 }
 
 .homeSecondSection--container p {
   font-size: 1.5rem;
+  color: rgb(97, 96, 96);
 }
 
 @media only screen and (max-width: 820px) {
