@@ -76,8 +76,8 @@
   margin: 0.5rem;
   border-radius: 2rem;
   background-color: white;
-  color: whitesmoke;
-  background: #08f143;
+  color: rgb(97, 96, 96);
+  border: 1px solid #08f143;
   text-align: center;
 }
 
