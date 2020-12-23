@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Te Mas China</title>
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./scss/css/main.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
       rel="stylesheet"
@@ -35,11 +35,15 @@
     </ul>
 
     <section class="homeFirstSection">
-      <h1>Your health is our main concern.</h1>
+      <div class="textContainer--homeFirstSection">
+        <h1>Your health is our main concern.</h1>
+        <p>
+          It is health that is real wealth and not pieces of gold and silver.
+          Mahatma Gandhi
+        </p>
+      </div>
       <div class="imageContainer">
-        <img class="img" src="./resources/healthy.jpg" alt="healthy food" />
         <img class="img" src="./resources/healthy1.jpg" alt="healthy food" />
-        <img class="img" src="./resources/healthy2.jpg" alt="healthy food" />
       </div>
     </section>
     <section class="homeSecondSection">
@@ -50,11 +54,9 @@
           your quality life.
         </p>
       </div>
-      <img
-        class="homeSecondSection--img"
-        src="./resources/fitness.jpg"
-        alt="fitness"
-      />
+      <div class="image-container">
+        <img src="./resources/fitness.jpg" alt="fitness" />
+      </div>
     </section>
     <footer class="footer">
       <p>Te + C 2020 &copy;</p>

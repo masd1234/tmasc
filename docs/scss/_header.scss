@@ -1,0 +1,144 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: $primary-color;
+  z-index: 1;
+
+  .logo {
+    font-size: 3rem;
+    flex-basis: 20%;
+    color: $secondary-text-color;
+  }
+
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 40rem;
+    list-style: none;
+
+    & li a:link {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      text-decoration: none;
+      color: $secondary-text-color;
+      border-radius: 0.5rem;
+      transition: 1s;
+    }
+
+    & li a:visited {
+      color: $secondary-text-color;
+    }
+
+    & li a:hover {
+      background-color: $hover-color;
+      color: $hover-text-color;
+    }
+
+    & li:active {
+      color: $terciary-color;
+      background-color: $secondary-color;
+    }
+  }
+}
+
+.navBarMobile {
+  border: none;
+  display: none;
+  position: relative;
+  left: 10%;
+  padding: 0 0.3rem;
+  margin: 0.5rem 0;
+  transition: 1s;
+  background-color: $hover-color;
+}
+
+.navBarMobileHide {
+  display: none;
+  transform: translateX(-50px);
+  transition: 1s;
+  opacity: 0;
+}
+
+.line {
+  background: $primary-color;
+  margin: 0.4rem 0;
+  height: 4px;
+  width: 24px;
+  list-style: none;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.mobileMenuDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: fixed;
+  top: 1px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: $primary-color;
+  list-style: none;
+  z-index: 1;
+
+  & li a:link {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: $secondary-text-color;
+    border-radius: 0.5rem;
+    transition: 1s;
+  }
+
+  & a:visited {
+    color: $secondary-text-color;
+  }
+
+  & a:hover {
+    background-color: $hover-color;
+    color: $hover-text-color;
+  }
+
+  & a:active {
+    color: $terciary-color;
+    background-color: $secondary-color;
+  }
+}
+
+.mobileMenuButtom {
+  width: 3rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  color: $hover-color;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  &:hover {
+    width: 3rem;
+    border: none;
+    color: $primary-color;
+    background-color: $hover-color;
+    transition: 1.5s;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    .navBar {
+      display: none;
+    }
+  }
+
+  .navBarMobile {
+    display: block;
+  }
+}
