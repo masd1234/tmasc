@@ -7,7 +7,6 @@
 html {
   font-size: 10px;
   font-family: "Varela Round", sans-serif;
-  background-color: rgba(10, 235, 18, 0.829);
 }
 
 html,
@@ -22,7 +21,6 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(10, 235, 18, 0.829);
   z-index: 1;
 }
 
@@ -55,12 +53,12 @@ body {
 
 .header .navBar li a:hover {
   background-color: whitesmoke;
-  color: rgba(10, 235, 18, 0.829);
+  color: rgba(30, 39, 30, 0.829);
 }
 
 .header .navBar li:active {
   color: #4aa884;
-  background-color: rgba(187, 183, 183, 0.301);
+  background-color: rgba(163, 143, 143, 0.301);
 }
 
 .navBarMobile {
@@ -82,7 +80,7 @@ body {
 }
 
 .line {
-  background: rgba(10, 235, 18, 0.829);
+  background: rgba(44, 51, 44, 0.829);
   margin: 0.4rem 0;
   height: 4px;
   width: 24px;
@@ -103,7 +101,7 @@ body {
   height: 100%;
   width: 100%;
   text-align: center;
-  background: rgba(10, 235, 18, 0.829);
+  background: linear-gradient(to bottom, rgba(132, 45, 190, 0.52), rgba(68, 11, 54, 0.73));
   list-style: none;
   z-index: 1;
 }
@@ -123,12 +121,12 @@ body {
 
 .mobileMenuDisplay a:hover {
   background-color: whitesmoke;
-  color: rgba(10, 235, 18, 0.829);
+  color: rgba(30, 39, 30, 0.829);
 }
 
 .mobileMenuDisplay a:active {
   color: #4aa884;
-  background-color: rgba(187, 183, 183, 0.301);
+  background-color: rgba(163, 143, 143, 0.301);
 }
 
 .mobileMenuButtom {
@@ -144,7 +142,7 @@ body {
 .mobileMenuButtom:hover {
   width: 3rem;
   border: none;
-  color: rgba(10, 235, 18, 0.829);
+  color: rgba(44, 51, 44, 0.829);
   background-color: whitesmoke;
   transition: 1.5s;
 }
@@ -159,14 +157,16 @@ body {
 }
 
 .homeFirstSection {
-  margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 40rem;
+  height: 100vh;
   width: 100%;
   border-bottom: 1px solid whitesmoke;
   color: #4d4a4a;
+  background-image: linear-gradient(to bottom, rgba(132, 45, 190, 0.52), rgba(68, 11, 54, 0.73)), url("../healthy1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .homeFirstSection .textContainer--homeFirstSection {
@@ -182,84 +182,19 @@ body {
 }
 
 .homeFirstSection h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: whitesmoke;
 }
 
 .homeFirstSection p {
-  color: whitesmoke;
-}
-
-.homeFirstSection .imageContainer {
-  text-align: center;
-  margin: 0.5rem;
-  height: 240px;
-  width: 600px;
-}
-
-.homeFirstSection .imageContainer img {
-  height: 100%;
-  max-width: 100%;
-  border-radius: 0.5rem;
-}
-
-.homeSecondSection {
-  height: 500px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-}
-
-.homeSecondSection .homeSecondSection--container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  height: 250px;
-  width: 50%;
-  border-radius: 0.5rem;
-  padding: 5rem;
-  margin: 0 1rem;
-}
-
-.homeSecondSection .homeSecondSection--container h1 {
-  font-size: 2rem;
-  color: whitesmoke;
-}
-
-.homeSecondSection .homeSecondSection--container p {
   font-size: 1.5rem;
   color: whitesmoke;
-}
-
-.homeSecondSection .image-container {
-  height: 100%;
-  border-radius: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.homeSecondSection .image-container img {
-  max-width: 100%;
-  height: 50%;
-  border-radius: 0.5rem;
-}
-
-@media only screen and (max-width: 1024px) {
-  .homeFirstSection {
-    height: 50%;
-  }
 }
 
 @media only screen and (max-width: 480px) {
   .homeFirstSection {
     flex-wrap: wrap;
     align-content: center;
-    height: 500px;
   }
   .homeFirstSection .textContainer--homeFirstSection {
     width: 100%;
@@ -267,37 +202,27 @@ body {
     padding: 1rem;
     text-align: center;
   }
-  .homeSecondSection {
-    flex-wrap: wrap;
-  }
-  .homeSecondSection .homeSecondSection--container {
-    width: 95%;
-  }
-  .homeSecondSection .image-container {
-    height: 40%;
-    width: 99%;
-  }
-  .homeSecondSection .image-container img {
-    width: 100%;
-    height: 100%;
-    border-radius: 0.5rem;
-  }
 }
 
 .aboutFirstSection {
   height: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   align-content: center;
   color: whitesmoke;
   gap: 2rem;
+  background-image: linear-gradient(to bottom, rgba(132, 45, 190, 0.52), rgba(68, 11, 54, 0.73)), url("../healthy2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .aboutFirstSection .textContainer {
   text-align: left;
   height: auto;
-  width: 50%;
+  width: 70%;
   margin: 0 1rem;
 }
 
@@ -353,6 +278,10 @@ body {
 }
 
 .plans .plans-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   border: 1px solid black;
   padding: 1rem;
   width: 80%;
@@ -361,12 +290,12 @@ body {
 }
 
 .plans .plans-cont h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .plans .plans-cont p {
   margin-top: 0.9rem;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -417,7 +346,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(10, 235, 18, 0.829);
+  background-color: rgba(44, 51, 44, 0.829);
+  background-image: linear-gradient(to bottom, rgba(132, 45, 190, 0.52), rgba(68, 11, 54, 0.73)), url("../healthy3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form--container h1 {
@@ -428,7 +360,7 @@ body {
 
 .form--container .form--inner--container {
   height: 70%;
-  width: 60%;
+  width: 70%;
   padding: 10rem 5rem;
   border-radius: 2rem;
   display: flex;
@@ -460,14 +392,14 @@ body {
 }
 
 .form--container .form--inner--container .buttomSubmit:hover {
-  background-color: rgba(10, 235, 18, 0.829);
+  background-color: rgba(44, 51, 44, 0.829);
   color: whitesmoke;
   border: 1px solid whitesmoke;
 }
 
 .form--container .form--inner--container .buttomSubmit:active {
   background-color: whitesmoke;
-  color: rgba(10, 235, 18, 0.829);
+  color: rgba(44, 51, 44, 0.829);
   transform: translateY(5px);
 }
 
@@ -485,10 +417,11 @@ body {
 
 .footer {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-around;
   height: 50px;
-  background-color: rgba(10, 235, 18, 0.829);
+  background-color: rgba(44, 51, 44, 0.829);
 }
 
 .footer p {

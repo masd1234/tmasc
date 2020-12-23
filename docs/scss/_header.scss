@@ -5,7 +5,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: $primary-color;
   z-index: 1;
 
   .logo {
@@ -86,7 +85,7 @@
   height: 100%;
   width: 100%;
   text-align: center;
-  background: $primary-color;
+  background: $linearGrad;
   list-style: none;
   z-index: 1;
 

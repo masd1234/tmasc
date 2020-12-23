@@ -5,7 +5,14 @@
   align-items: center;
   justify-content: center;
   background-color: $primary-color;
-
+  background-image: linear-gradient(
+      to bottom,
+      rgba(132, 45, 190, 0.52),
+      rgba(68, 11, 54, 0.73)
+    ),
+    url("../healthy3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   & h1 {
     font-size: 2rem;
     margin-bottom: 3rem;
@@ -14,7 +21,7 @@
 
   .form--inner--container {
     height: 70%;
-    width: 60%;
+    width: 70%;
     padding: 10rem 5rem;
     border-radius: 2rem;
     display: flex;
